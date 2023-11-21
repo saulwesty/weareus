@@ -145,7 +145,7 @@ body{
     .firstbox{
   
         font-family: myfont;
-        font-size:60px;
+        font-size:55px;
         line-height:130px;
         margin:5% 5%;
         border-style:solid;
@@ -169,6 +169,7 @@ body{
         display: inline-block;
         align-items: left;
         margin-right:12%;
+        margin-left: 12%;
        
     }
 }
@@ -310,7 +311,7 @@ h4{
 
 .img2{
     width: 100%;
-    margin:6%;
+    margin:6% 0%;
     display: inline-block;
 }
 
@@ -411,7 +412,8 @@ h11{
     background-color: rgba(0,0,0, 0.1);
     text-align: center;
     font-weight: bold;
-    margin-left:5%;
+    margin-left:3%;
+    margin-right:3%;
     padding:5%;
     display: inline-block;
     letter-spacing: 1px;
