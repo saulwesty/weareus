@@ -1,0 +1,487 @@
+body{
+    margin:0px;
+    padding:0px;
+    animation: color 9s forwards;
+    text-align: center;
+    align-items: center;
+   
+ 
+}
+
+@keyframes color {
+    0%   { 
+        background-color: black;
+        background-image: url(http://www.transparenttextures.com/patterns/rocky-wall.png); 
+    }
+
+    100% {
+        background-color: white;
+        background-image: url(http://www.transparenttextures.com/patterns/rocky-wall.png); 
+    }
+}
+
+
+@media (min-width: 700px) {
+    .toolbar{
+        text-align: right;
+        background-color: black;
+        margin:0px;
+        top:0px;
+        right:0px;
+        left:0px;
+        cursor:pointer;
+        position: fixed;
+        
+    
+    }
+
+    .toolbartwo{
+        visibility: hidden;
+        height: 0px;
+    
+    }
+    .picpart{
+        margin:6%;
+        width: 20%;
+        display: inline-block;
+        text-align: center;
+        font-family: myfont;
+        
+    }
+    .leftside{
+        display: inline-block;
+        align-items: left;
+    
+    }
+    
+    .leftsidetwo{
+        margin-right:30%;
+        
+    
+    }
+    
+    .rightside{
+        display: inline-block;
+        vertical-align: top;
+        margin-left:35%;
+        margin-top: 5%;
+    }
+
+    .firstbox{
+  
+        font-family: myfont;
+        font-size:80px;
+        line-height:130px;
+        margin:5% 5%;
+        border-style:solid;
+        border-width:5px;
+        padding: 10px;
+        align-items: center;
+        color:white;
+        
+    }
+    h8{
+        font-family: myfont;
+        font-size:90px;
+        text-align:right;
+        font-weight:bold;
+        width:100%;
+        margin:2%;
+        
+    }
+    .floatin{
+        opacity:0;
+        width:33%;
+        display: inline-block;
+        align-items: left;
+        margin-right:12%;
+        min-width: 400px;
+       
+    }
+}
+
+@media (max-width: 700px) {
+    .toolbar{
+        visibility:hidden;
+        height: 40px;
+    }
+    .toolbartwo{
+        text-align: right;
+        background-color: black;
+        margin:0px;
+        top:0px;
+        right:0px;
+        left:0px;
+        cursor:pointer;
+        position: fixed;
+        height:40px;
+    }
+    .picpart{
+        margin:10%;
+        text-align: center;
+        font-family: myfont;
+       
+        
+    }
+    .leftside{
+        display: inline-block;
+        align-items: left;
+    
+    }
+    
+    .leftsidetwo{
+        margin-right:30%;
+        
+    
+    }
+    
+    .rightside{
+        display: inline-block;
+        vertical-align: top;
+        
+      
+    }
+
+    .firstbox{
+  
+        font-family: myfont;
+        font-size:60px;
+        line-height:130px;
+        margin:5% 5%;
+        border-style:solid;
+        border-width:5px;
+        padding: 10px;
+        align-items: center;
+        color: white;
+        
+    }
+    h8{
+        font-family: myfont;
+        font-size:60px;
+        text-align:right;
+        font-weight:bold;
+        width:100%;
+        margin:2%;
+        
+    }
+    .floatin{
+        opacity:0;
+        display: inline-block;
+        align-items: left;
+        margin-right:12%;
+       
+    }
+}
+
+
+
+.clickable{
+    font-size: 30px;
+    font-family:myfont;
+    color:white;
+    letter-spacing: 2px;
+    
+    
+    
+    
+ 
+}
+
+.title{
+    font-size:30px;
+    font-weight:bold;
+    color: white;
+    float: left;
+    font-family: myfont;
+    top:0px;
+    padding:0px;
+}
+
+
+.clickable:hover{
+    background-color: white;
+    background-image: url(http://www.transparenttextures.com/patterns/rocky-wall.png);
+    color:black;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(StraightRuler-vmd8E.ttf);
+}
+
+.img1{
+    height:30px;
+    float: left;
+}
+
+.img3{
+    display: inline-block;
+}
+
+.img4{
+    align-items: right;
+    display: inline-block;
+    width:40%;
+    visibility:hidden;
+}
+
+
+
+h1{
+    font-size:30px;
+    color: white;
+    text-align: left;
+    font-family: myfont;
+    top:0px;
+    padding:0px;
+}
+
+h2{
+    font-size:15px;
+    color: white;
+    text-align: left;
+    margin-left:5%;
+    font-family: myfont;
+    margin:0px;
+    left:15%;
+    bottom:15%;
+   
+}
+
+h3{
+    font-size:30px;
+    color: white;
+    text-align: left;
+    font-family: myfont;
+    display: inline-block;
+    margin-left:20%;
+    
+}
+
+h4{
+    font-size:30px;
+    color: white;
+    text-align: right;
+    font-family: myfont;
+    margin-right:20%;
+}
+
+.h5{
+    font-size:20px;
+    color: white;
+    text-align: right;
+    font-family: myfont;
+    margin-right:20%;
+    cursor:pointer;
+
+}
+
+.h5:hover{
+    color:grey;
+    
+}
+
+
+.bottombar{
+    background-color: black;
+}
+
+
+
+
+
+.secondbox{
+    
+    font-family: myfont;
+    font-size:50px;
+    color:white;
+    margin:5% 5%;
+    background-color: rgba(0,0,0, 0.1);
+    font-weight: bold;
+    padding:1%;
+    vertical-align: top;
+}
+
+.firsttitle{
+    align-items: right;
+    text-align: center;
+}
+
+.img2{
+    width: 100%;
+    margin:6%;
+    display: inline-block;
+}
+
+
+
+h6{
+    font-family: myfont;
+    font-size:30px;
+    font-weight: bold;
+}
+
+p{
+    font-family: myfont;
+    font-size:20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+hr{
+    border-radius:5px;
+    border:1px solid;
+}
+
+
+
+h9{
+    font-size: 100px;
+    align-items: center;
+    text-align: center;
+    color: black;
+    float: center;
+    width:98%;
+    
+}
+
+h10{
+    font-size: 30px;
+    align-items: right;
+    text-align: right;
+    color: white;
+    background-color: black;
+    border-radius: 100px;
+    padding:10px;
+    letter-spacing: 10px;
+    position:fixed;
+    right:0%;
+    bottom:5%;
+}
+
+h10:hover{
+    background-color: grey;
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+h9:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+  
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+  
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+
+h11{
+    font-size: 30px;
+    align-items: right;
+    text-align: right;
+    color: white;
+    margin-right:3%;
+    margin-top: 1%;
+   
+    
+}
+.para{
+    font-family: myfont;
+    font-size:20px;
+    width:30%;
+    min-width: 300px;
+    background-color: rgba(0,0,0, 0.1);
+    text-align: center;
+    font-weight: bold;
+    margin-left:5%;
+    padding:5%;
+    display: inline-block;
+    letter-spacing: 1px;
+
+}
+
+.paracont{
+    font-family: myfont;
+    font-size:30px;
+    background-color: rgba(0,0,0, 0.1);
+    text-align: center;
+    font-weight: bold;
+    margin-left:10%;
+    margin-right: 10%;
+    padding:5%;
+    display: inline-block;
+    letter-spacing: 1px;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+button{
+    background-color: white;
+    font-size: 30px;
+    font-weight: bold;
+    border-width: thick;
+    cursor: pointer;
+
+}
+
+.toppart{
+    background-image: url(techsupportman\ -\ Copy.jpg);
+    background-size:cover;
+    background-position: center;
+    
+}
+
+
+
+.floatintwo{
+    opacity:0;
+    
+    
+}
+
+.floatinthree{
+    opacity:0;
+}
+
+.floatinfour{
+    opacity:0;
+}
+
+.floatinfive{
+    opacity:0;
+}
+
+.randomelement{
+    top:30px;
+    
+}
+
+.optional{
+    background-color: black;
+    visibility: hidden;
+    width:30%;
+    margin-left:70%;
+}
+
+
